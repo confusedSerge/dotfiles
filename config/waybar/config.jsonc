@@ -27,7 +27,7 @@
 
   "network": {
     "tooltip-format": "via {gwaddr} {ifname}",
-    "format-wifi": "\udb81\udda9 {bandwidthDownBytes}",
+    "format": "\udb81\udda9 {bandwidthDownBytes}",
     "format-disconnected": "\udb81\uddaa Disconnected",
     "interval": 1,
   },

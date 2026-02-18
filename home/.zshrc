@@ -1,11 +1,11 @@
 # zsh installation
-export ZSH="$HOME/.config/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # zsh theme
 ZSH_THEME="lambda"
 
 # auto-corrections
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # plugins
 plugins=(git)
@@ -26,6 +26,6 @@ eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 
 # Aliases
-alias rm='echo "This is not the command you are looking for."; false'
+alias rm="rm -ri"
 alias c="clear"
 alias cd=z

@@ -11,7 +11,7 @@ window#waybar {
 .modules-right,
 .modules-center {
     background-color: transparent;
-    margin: 0 10px 0.75rem 10px;
+    margin: 0.25rem 10px 0.75rem 10px;
 }
 
 #workspaces button label {

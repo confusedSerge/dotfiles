@@ -1,15 +1,18 @@
 @theme "/dev/null"
 
-* {  
+* {
   font: "Jetbrains Mono Bold 10";
 
   // Center
-  width: 500px; 
+  width: 700px;
   height: 600px;
-  
-  background: #111111;
+  border-radius: 7px;
+
+  background: #151515;
   background-alternative: #1A1A1A;
+  background-selected: #ebdbb3;
   foreground: #bbbbbb;
+
 
   background-color: @background;
   text-color: @foreground;
@@ -18,7 +21,7 @@
 mainbox {
   children: [ inputbar, listview ];
   padding: 1.5em;
-  spacing: 1.5em;
+  spacing: 1em;
 }
 
 inputbar {
@@ -26,13 +29,13 @@ inputbar {
   background-color: @background-alternative;
 }
 
-prompt, entry, element selected {
+prompt, entry {
     vertical-align: 0.5;
     background-color: @background-alternative;
 }
 
 prompt {
-   padding: 1.5em;
+   padding: 1.25em;
 }
 
 element {
@@ -42,6 +45,15 @@ element {
 
 element-text {
   background-color: inherit;
+}
+
+element selected {
+  background-color: @background-selected;
+  text-color: @background;
+}
+
+element-text selected {
+  text-color: @background;
 }
 
 /* vim:ft=css

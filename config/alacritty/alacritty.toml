@@ -1,16 +1,16 @@
 [colors.normal]
 black = "#151515"
-blue = "#b0b0b0"
-cyan = "#828282"
-green = "#999999"
-magenta = "#a4a4a4"
-red = "#8e8e8e"
-white = "#f0f0f0"
-yellow = "#777777"
+blue = "#6A9FB5"
+cyan = "#75B5AA"
+green = "#90A959"
+magenta = "#AA759F"
+red = "#AC4142"
+white = "#D0D0D0"
+yellow = "#F4BF75"
 
 [colors.primary]
 background = "#151515"
-foreground = "#f0f0f0"
+foreground = "#d0d0d0"
 
 [font]
 size = 8

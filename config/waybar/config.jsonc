@@ -76,8 +76,8 @@
     },
 
     "clock": {
-        "format": "\uf017 {:%H:%M}",
-        "format-alt": "\uf133  {:%a, %d %b %Y, %H:%M}",
+        "format": "\uf133  {:%a, %d %b %Y, %H:%M}",
+        "format-alt": "\uf017 {:%H:%M}",
         "tooltip": false,
         "on-click": "mode",
     },

@@ -1,3 +1,4 @@
+
 [colors.normal]
 black = "#151515"
 blue = "#6A9FB5"
@@ -13,7 +14,7 @@ background = "#151515"
 foreground = "#d0d0d0"
 
 [font]
-size = 8
+size = 8.5
 
 [font.bold]
 family = "JetBrains Mono"
@@ -37,3 +38,8 @@ program = "/bin/zsh"
 [window.padding]
 x = 20
 y = 15
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

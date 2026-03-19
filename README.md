@@ -13,8 +13,8 @@ A quick run-down on the basic applications I use:
 
 | Use-Case | Application |
 | :---: | :---: |
-| Window manager| [i3-wm](https://i3wm.org/) |
-| Status Bar | [Polybar](https://github.com/polybar/polybar) with [custom weather module](https://github.com/confusedSerge/polybar-weather) |
+| Window manager| [hyperland](https://wiki.hypr.land/) |
+| Status Bar | [waybar](https://github.com/Alexays/Waybar) with [custom weather module](https://github.com/confusedSerge/polybar-weather) |
 | Terminal emulator| [alacritty](https://github.com/alacritty/alacritty)|
 | Shell | [zsh](https://www.zsh.org/) with [oh-my-zsh](https://ohmyz.sh/) |
 | Application launcher | [rofi](https://github.com/davatorium/rofi) |
